@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Cafe Coffee Day</h1>
+        <h3>Life happens, coffee helps.</h3>
+        <hr>
+        <div class="menu-container">
+            <table>
+                <tr><th>Food</th><th>Price</th></tr>
+                <tr><td>Veg Sandwich</td><td>Rs.100</td></tr>
+                <tr><td>Veg Cheese grilled Sandwich</td><td>Rs.150</td></tr>
+                <tr><td>Margherita Pizza</td><td>Rs.200</td></tr>
+                <tr><td>Crossiant</td><td>Rs.250</td></tr>
+                <tr><td>Avocado toast</td><td>Rs.350</td></tr>
+                <tr><td>Veg Burger</td><td>Rs.200</td></tr>
+                <br>
+                <tr><th>Beverages</th><th></th></tr>
+                <tr><td>Cold Coffee</td><td>Rs.200</td></tr>
+                <tr><td>Americano</td><td>Rs.350</td></tr>
+                <tr><td>Espresso</td><td>Rs.350</td></tr>
+                <tr><td>Hot Latte</td><td>Rs.250</td></tr>
+                <tr><td>Iced tea</td><td>Rs.150</td></tr>
+                <tr><td>Hot chocolate</td><td>Rs.200</td></tr>
+            </table>
+        </div>
+        <hr>
+    <footer>
+        <p>Thank You... Visit Again!</p>
+        <button onclick="showSpecial()"> Today's Special</button>
+        <p id="special-text" style="font-size:20px; margin-top:10px;"></p>
+    </footer>
+    <script>
+        function showSpecial() {
+            alert("Today's special is Veggie Sandwich and Fresh Juice!");
+        }
+    </script>
+    
+</body>
+</html>
